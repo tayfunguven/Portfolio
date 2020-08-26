@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySite</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.svg" alt="MySite logo" class="logo">
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/cube.svg" alt="cube graphic" class="cube">
+            <h2>Web Portfolio for Job Application</h2>
+            <p class="subhead">Designed by Tayfun Güven</p>
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>        
+    </div>
+    <div class="green-container">
+        <div class="container">
+            <ul>
+               <li>
+                   <img src="images/icon-1.svg" alt="Calendar icon">
+                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                </li> 
+               <li>
+                   <img src="images/icon-2.svg" alt="Id card icon">
+                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                </li> 
+               <li>
+                   <img src="images/icon-3.svg" alt="Photo icon">
+                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                </li> 
+            
+            </ul>
+        </div>
+    </div>
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="User testimonial picture">
+                        <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."</blockquote>
+                        <figcaption>-Ahmad Conway</figcaption>    
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="User testimonial picture">
+                        <blockquote>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."</blockquote>
+                        <figcaption>-Jane Doe</figcaption>    
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Start your journey now!</h1>
+        <a href="#" class="cta">Get started</a>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="images/logo-white.svg" class="logo" alt="logo">                    
+                </a>
+                <p class="address">Istanbul Province, 34880<br>TURKEY</p>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privaciy Policy</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventListener('click', function(e){
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });        
+    
+    </script>
+</body>
+</html>

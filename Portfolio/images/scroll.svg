@@ -1,0 +1,11 @@
+<svg id="scroll" xmlns="http://www.w3.org/2000/svg" width="24" height="81" viewBox="0 0 24 81">
+  <g id="Rectangle_5" data-name="Rectangle 5" fill="none" stroke="#16e182" stroke-width="2">
+    <rect width="24" height="81" rx="12" stroke="none"/>
+    <rect x="1" y="1" width="22" height="79" rx="11" fill="none"/>
+  </g>
+  <g id="Rectangle_6" data-name="Rectangle 6" fill="none" stroke="#16e182" stroke-width="2">
+    <rect width="24" height="81" rx="12" stroke="none"/>
+    <rect x="1" y="1" width="22" height="79" rx="11" fill="none"/>
+  </g>
+  <rect id="Rectangle_7" data-name="Rectangle 7" width="12" height="41" rx="6" transform="translate(6 34)" fill="#16e182"/>
+</svg>
